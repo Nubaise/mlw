@@ -1,0 +1,8 @@
+venv/
+data/
+models/*.pkl
+__pycache__/
+*.pyc
+*.bz2
+*.jsonl
+*.dat
