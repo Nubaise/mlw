@@ -9,7 +9,7 @@ from sklearn.metrics import ( # type: ignore
     classification_report,
 )
 
-MODEL_PATH = "models/malware_model.pkl"
+MODEL_PATH = "models/lgbm_ember2018.pkl"
 
 
 def evaluate(X_test: np.ndarray, y_test: np.ndarray) -> None:

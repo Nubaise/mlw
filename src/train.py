@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split # type: ignore
 
 
 DATA_DIR = "data/ember2018"
-MODEL_PATH = "models/malware_model.pkl"
+MODEL_PATH = "models/lgbm_ember2018.pkl"
 
 
 def train():

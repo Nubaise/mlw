@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 from src.features import extract_features
 
-MODEL_PATH = "models/malware_model.pkl"
+MODEL_PATH = "models/lgbm_ember2018.pkl"
 
 
 def predict(file_path: str) -> None:
